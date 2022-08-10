@@ -1,0 +1,42 @@
+body{
+
+    background-color: aqua;
+    /* background-image: url("https://images5.alphacoders.com/796/796108.jpg"); */
+    /* background-size: 100vh; */
+    /* background-repeat: repeat; */
+}
+
+footer{
+    /* margin: 6rem; */
+    background-image: url("https://images3.alphacoders.com/812/812062.png");
+}
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: yellow;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 70px;
+    padding: 2rem;
+} 
+
+.container{
+    background-color: black; 
+    height: 100vh;
+    color: aliceblue;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+    padding: 2rem;
+    background-color: yellow;
+} */
