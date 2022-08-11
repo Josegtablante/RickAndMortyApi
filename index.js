@@ -24,6 +24,7 @@ function cargarDatos(URL) {
     fetch(URL)
     .then(respuesta => respuesta.json())
     .then(data => {
+        console.log(data.info.next)
         const personajes = data.results
         const pagSiguiente = data.info.next
         const pagAtras = data.info.prev
@@ -53,10 +54,10 @@ function cargarDatos(URL) {
 function imprimirPersonajes(arrayPersonajes) { 
     divCard.innerHTML= ''
     arrayPersonajes.forEach(personaje => {
-    let card = document.createElement("div");
-    card.className = "card p-0 bg-dark text-light";
-    card.style.width = "18rem"
-    card.innerHTML = `<img class="card-img-top" src="${personaje.image}" alt="">
+        let card = document.createElement("div");
+        card.className = "card p-0 bg-dark text-light";
+        card.style.width = "18rem"
+        card.innerHTML = `<img class="card-img-top" src="${personaje.image}" alt="">
         <div class="card-body">
         <p class="card-text"><strong>${personaje.id}</strong> Nombre: ${personaje.name}</p>
         </div>`

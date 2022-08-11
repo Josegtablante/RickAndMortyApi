@@ -9,6 +9,13 @@ body{
 footer{
     /* margin: 6rem; */
     background-image: url("https://images3.alphacoders.com/812/812062.png");
+    /* background-position-x: 50px; */
+    background-position-y:bottom;
+    background-size: cover;
+    /* width: 200px;} */
+    /* height: 200px; */
+    /* padding-bottom: 3rem; */
+    height: 100vh;
 }
 
 
