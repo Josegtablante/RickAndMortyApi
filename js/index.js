@@ -1,4 +1,4 @@
-const URI = "https://rickandmortyapi.com/api/character";
+const URI = "https://rickandmortyapi.com/api/character"
 
 const divCard = document.getElementById("cards-container")
 const btnSiguiente = document.getElementById("siguiente")
